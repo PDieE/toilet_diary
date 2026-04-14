@@ -72,6 +72,7 @@ export const useToiletStore = defineStore('toilet', function() {
     deleteRecord,
     getRecordsByDate,
     getRecordCountByDate,
+    getCurrentMonthRecords,
     getMonthlyCount,
     getAverageFrequency,
   }
