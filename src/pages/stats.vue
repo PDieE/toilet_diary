@@ -49,7 +49,7 @@ const goHome = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-background p-4 pb-24">
+  <div class="min-h-screen bg-background p-4 pb-24 max-w-[500px] mx-auto">
     <header class="mb-6">
       <div class="flex items-center gap-3">
         <Button variant="ghost" size="icon" @click="goHome">

@@ -102,7 +102,7 @@ watch(() => calendarRef.value?.selectedDate, (newDate) => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-background p-4 pb-24">
+  <div class="min-h-screen bg-background p-4 pb-24 max-w-[500px] mx-auto">
     <header class="mb-6">
       <div class="flex items-center justify-between">
         <h1 class="text-2xl font-bold text-foreground">如厕日记</h1>
